@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="AKAA_RUN.png">
+<SubTexture name="AKAA_RUN AKAZA_RUN0000" x="1424" y="658" width="643" height="655" frameX="-7" frameY="-10" frameWidth="870" frameHeight="700" />
+<SubTexture name="AKAA_RUN AKAZA_RUN0001" x="1424" y="0" width="751" height="658" frameX="-7" frameY="-10" frameWidth="870" frameHeight="700" />
+<SubTexture name="AKAA_RUN AKAZA_RUN0002" x="813" y="1323" width="867" height="583" frameX="-7" frameY="-10" frameWidth="870" frameHeight="700" />
+<SubTexture name="AKAA_RUN AKAZA_RUN0003" x="0" y="0" width="880" height="662" frameX="-7" frameY="-10" frameWidth="870" frameHeight="700" />
+<SubTexture name="AKAA_RUN AKAZA_RUN0004" x="776" y="662" width="641" height="650" frameX="-7" frameY="-10" frameWidth="870" frameHeight="700" />
+<SubTexture name="AKAA_RUN AKAZA_RUN0005" x="880" y="0" width="544" height="661" frameX="-7" frameY="-10" frameWidth="870" frameHeight="700" />
+<SubTexture name="AKAA_RUN AKAZA_RUN0006" x="0" y="662" width="776" height="661" frameX="-7" frameY="-10" frameWidth="870" frameHeight="700" />
+<SubTexture name="AKAA_RUN AKAZA_RUN0007" x="0" y="1323" width="813" height="637" frameX="-7" frameY="-10" frameWidth="870" frameHeight="700" />
+</TextureAtlas>

@@ -23,21 +23,23 @@ RED = (255, 0, 0)
 WHITE = (255, 255, 255)
 
 # define fighter variables
-AKAZA_SIZE = 288
-AKAZA_SCALE = 1
-AKAZA_OFFSET=[72,56]
-AKAZA_DATA = [AKAZA_SIZE,AKAZA_SCALE,AKAZA_OFFSET]
+AKAZA_SIZE_W = 413
+AKAZA_SIZE_H = 989
+AKAZA_SCALE = 0.25
+AKAZA_OFFSET=[0,0]
+AKAZA_DATA = [AKAZA_SIZE_W,AKAZA_SIZE_H]
+# AKAZA_DATA = [AKAZA_SIZE_W,AKAZA_SIZE_H,AKAZA_SCALE,AKAZA_OFFSET]
 
 #load background image before the game
 bg_image = pygame.image.load(
-    "assets/images/Background_Kimetsu_No_Yaiba.jpg").convert_alpha() #Once an image has been converted it can be blitted (drawn) onto another surface
+    "assets/images/background.jpg").convert_alpha() #Once an image has been converted it can be blitted (drawn) onto another surface
 
 # load spritesheets
 akaza_sheet = pygame.image.load(
-    "assets/images/Akaza/AKAZA_SHEET.png").convert_alpha()
+    "assets/images/Akaza/stand/AKAZA_STAND.png").convert_alpha()
 
 # define number of steps in each animation
-AKAZA_ANIMATION_STEPS = [10, 8, 1, 7, 7, 3, 7]
+AKAZA_ANIMATION_STEPS = [11]
 
 # function for drawing background
 def draw_bg():
