@@ -20,13 +20,27 @@ FPS = 60
 PLAYER_VEL=5
 
 # create game window
-WIDTH,HEIGHT = 1280 ,800
+WIDTH,HEIGHT = 1000 ,600
 # this function will create a game window for us . two initial arguments screen_width & screen_height
 window = pygame.display.set_mode((WIDTH,HEIGHT))
 
+#load background image
+bg_image = pygame.image.load("assets/images/background.jpg").convert_alpha()
+    
+
+
+def draw_bg():
+   scaled_bg = pygame.transform.scale(bg_image, (WIDTH, HEIGHT))
+   window.blit(scaled_bg, (0, 0))
+    
+
+
+
 def main(window):
     clock = pygame.time.Clock()
-
+    #draw background
+    draw_bg()
+    pygame.display.update()
     run =True
     while run:
         clock.tick(FPS)
