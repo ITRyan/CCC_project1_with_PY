@@ -34,31 +34,15 @@ AKAZA_DATA = [AKAZA_SIZE_W,AKAZA_SIZE_H]
 bg_image = pygame.image.load(
     "assets/images/background.jpg").convert_alpha() #Once an image has been converted it can be blitted (drawn) onto another surface
 
-# load spritesheets
-akaza_sheet = pygame.image.load(
-    "assets/images/Akaza/stand/AKAZA_STAND.png").convert_alpha()
-
-# define number of steps in each animation
-AKAZA_ANIMATION_STEPS = [11]
-
 # function for drawing background
 def draw_bg():
     scaled_bg = pygame.transform.scale(bg_image, (SCREEN_WIDTH, SCREEN_HEIGHT))
-    screen.blit(bg_image, (0, 0)) # The blit() method is then used to draw the background image onto the screen at position(0,0)
-
-# function for drawing fighter health bars
-
-
-def draw_health_bar(health, x, y):
-    ratio = health / 100
-    pygame.draw.rect(screen, WHITE, (x-2, y-2, 404, 34))
-    pygame.draw.rect(screen, RED, (x, y, 400, 30))
-    pygame.draw.rect(screen, YELLOW, (x, y, 400*ratio, 30))
+    screen.blit(scaled_bg, (0, 0)) # The blit() method is then used to draw the background image onto the screen at position(0,0)
 
 
 # create two instances of fighters
-fighter_1 = Fighter(200, 310, False,AKAZA_DATA,akaza_sheet, AKAZA_ANIMATION_STEPS)
-fighter_2 = Fighter(700, 310,True ,AKAZA_DATA,akaza_sheet, AKAZA_ANIMATION_STEPS)
+fighter_1 = Fighter(200, 310)
+fighter_2 = Fighter(700, 310)
 
 
 # game loop
@@ -70,15 +54,13 @@ while run: #while run is True execute all the code below this
     # draw background
     draw_bg()
 
-  # show player stats
-    draw_health_bar(fighter_1.health, 20, 20)
-    draw_health_bar(fighter_2.health, 580, 20)
+ 
     # move fighters
-    fighter_1.move(SCREEN_WIDTH, SCREEN_HEIGHT, screen, fighter_2)
+    fighter_1.move(SCREEN_WIDTH, SCREEN_HEIGHT)
 
-    #update fighters
-    fighter_1.update()
-    fighter_2.update()
+    # #update fighters
+    # fighter_1.update()
+    # fighter_2.update()
     
     # draw fighters
     fighter_1.draw(screen)
