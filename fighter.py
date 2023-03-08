@@ -1,6 +1,7 @@
 import pygame
 
 
+
 class Fighter():
     def __init__(self, x, y,flip,data,sprite_sheet,animation_steps):
         self.size_w=data[0]
@@ -13,7 +14,7 @@ class Fighter():
         self.frame_index=0
         self.image=self.animation_list[self.action][self.frame_index]
         self.update_time = pygame.time.get_ticks()
-        self.rect = pygame.Rect((x,y, 80, 180))
+        self.rect = pygame.Rect((x,y, 413, 989))
         self.vel_y = 0
         self.jump = False
         self.attacking = False

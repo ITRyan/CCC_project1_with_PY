@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TextureAtlas imagePath="AKAZA_STAND.png">
-<SubTexture name="AKAZA_STAND AKAZA_STAND0000" x="1298" y="0" width="415" height="987" frameX="-6" frameY="0" frameWidth="413" frameHeight="989" />
-<SubTexture name="AKAZA_STAND AKAZA_STAND0001" x="844" y="0" width="454" height="988" frameX="-6" frameY="0" frameWidth="413" frameHeight="989" />
-<SubTexture name="AKAZA_STAND AKAZA_STAND0002" x="1713" y="0" width="438" height="986" frameX="-6" frameY="0" frameWidth="413" frameHeight="989" />
-<SubTexture name="AKAZA_STAND AKAZA_STAND0003" x="404" y="0" width="440" height="989" frameX="-6" frameY="0" frameWidth="413" frameHeight="989" />
-<SubTexture name="AKAZA_STAND AKAZA_STAND0004" x="0" y="0" width="404" height="990" frameX="-6" frameY="0" frameWidth="413" frameHeight="989" />
-<SubTexture name="AKAZA_STAND AKAZA_STAND0005" x="0" y="990" width="404" height="985" frameX="-6" frameY="0" frameWidth="413" frameHeight="989" />
-<SubTexture name="AKAZA_STAND AKAZA_STAND0006" x="404" y="990" width="403" height="982" frameX="-6" frameY="0" frameWidth="413" frameHeight="989" />
-<SubTexture name="AKAZA_STAND AKAZA_STAND0007" x="807" y="990" width="450" height="982" frameX="-6" frameY="0" frameWidth="413" frameHeight="989" />
-<SubTexture name="AKAZA_STAND AKAZA_STAND0008" x="1257" y="990" width="486" height="979" frameX="-6" frameY="0" frameWidth="413" frameHeight="989" />
-<SubTexture name="AKAZA_STAND AKAZA_STAND0009" x="2151" y="0" width="411" height="978" frameX="-6" frameY="0" frameWidth="413" frameHeight="989" />
-<SubTexture name="AKAZA_STAND AKAZA_STAND0010" x="2562" y="0" width="493" height="976" frameX="-6" frameY="0" frameWidth="413" frameHeight="989" />
+<SubTexture name="AKAZA_STAND AKAZA_STAND0000" x="73" y="0" width="55" height="130" frameX="0" frameY="0" frameWidth="58" frameHeight="124" />
+<SubTexture name="AKAZA_STAND AKAZA_STAND0001" x="125" y="133" width="64" height="122" frameX="0" frameY="0" frameWidth="60" frameHeight="118" />
+<SubTexture name="AKAZA_STAND AKAZA_STAND0002" x="195" y="0" width="67" height="128" frameX="0" frameY="0" frameWidth="63" frameHeight="124" />
+<SubTexture name="AKAZA_STAND AKAZA_STAND0003" x="189" y="133" width="62" height="121" frameX="0" frameY="0" frameWidth="58" frameHeight="117" />
+<SubTexture name="AKAZA_STAND AKAZA_STAND0004" x="324" y="0" width="64" height="114" frameX="0" frameY="0" frameWidth="60" frameHeight="110" />
+<SubTexture name="AKAZA_STAND AKAZA_STAND0005" x="63" y="133" width="62" height="123" frameX="0" frameY="0" frameWidth="58" frameHeight="119" />
+<SubTexture name="AKAZA_STAND AKAZA_STAND0006" x="128" y="0" width="67" height="130" frameX="0" frameY="0" frameWidth="63" frameHeight="126" />
+<SubTexture name="AKAZA_STAND AKAZA_STAND0007" x="262" y="0" width="62" height="121" frameX="0" frameY="0" frameWidth="58" frameHeight="117" />
+<SubTexture name="AKAZA_STAND AKAZA_STAND0008" x="0" y="133" width="63" height="128" frameX="0" frameY="0" frameWidth="59" frameHeight="124" />
+<SubTexture name="AKAZA_STAND AKAZA_STAND0009" x="0" y="261" width="77" height="112" frameX="0" frameY="0" frameWidth="73" frameHeight="108" />
+<SubTexture name="AKAZA_STAND AKAZA_STAND0010" x="0" y="0" width="73" height="133" frameX="0" frameY="0" frameWidth="69" frameHeight="129" />
 </TextureAtlas>
